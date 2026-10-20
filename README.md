@@ -1,11 +1,12 @@
 # -Windows-Server-Enterprise-Infrastructure-Lab (Zero to Hero)
 An industrial-grade Windows Server 2022 infrastructure lab designed and implemented using Virtualization. This repository documents the deployment of core identity services, role separation concepts, centralized storage, network management, and security policies following enterprise IT standards.
 
-##v1. Conceptual Enterprise Architecture
+## 1. Conceptual Enterprise Architecture
 
 In a production enterprise environment, workloads are isolated across dedicated Virtual Machines to guarantee high availability, fault tolerance, and security (Separation of Roles). 
 
-```text
+
+```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        Physical Hyper-V / VMware Host                  │
 │  ┌───────────────────────┐  ┌───────────────────────┐  ┌────────────┐  │
@@ -19,6 +20,7 @@ In a production enterprise environment, workloads are isolated across dedicated 
                                   │ (Internal Virtual Switch)
                                   ▼
                      [ Client Workstation (CL01) ]
+```
                      
 Architecture Note: While this proof-of-concept consolidates core roles within a virtualized server instance to optimize hardware resources during local testing, the blueprint adheres to enterprise role separation principles.
 
