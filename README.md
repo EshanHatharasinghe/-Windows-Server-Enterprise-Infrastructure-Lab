@@ -1,7 +1,7 @@
 # -Windows-Server-Enterprise-Infrastructure-Lab (Zero to Hero)
 An industrial-grade Windows Server 2022 infrastructure lab designed and implemented using Virtualization. This repository documents the deployment of core identity services, role separation concepts, centralized storage, network management, and security policies following enterprise IT standards.
 
-##1. Conceptual Enterprise Architecture
+##v1. Conceptual Enterprise Architecture
 
 In a production enterprise environment, workloads are isolated across dedicated Virtual Machines to guarantee high availability, fault tolerance, and security (Separation of Roles). 
 
@@ -93,4 +93,9 @@ CL01	Domain Client Workstation	Windows 10/11 Pro	Dynamic (DHCP)	255.255.255.0	19
 - **Server OS:** Windows Server 2022 Datacenter / Standard (Desktop Experience)
 - **Client OS:** Windows 10 / 11 Pro
 - **Automation:** PowerShell
+
+
+ # 🚀 Phase 1: Lab & Network Architecture Setup
+
+
  
