@@ -3,7 +3,7 @@ An industrial-grade Windows Server 2022 infrastructure lab designed and implemen
 
 ## 1. Conceptual Enterprise Architecture
 
-In a production enterprise environment, workloads are isolated across dedicated Virtual Machines to guarantee high availability, fault tolerance, and security (Separation of Roles). 
+" In a production enterprise environment, workloads are isolated across dedicated Virtual Machines to guarantee high availability, fault tolerance, and security (Separation of Roles). " 
 
 
 ```
