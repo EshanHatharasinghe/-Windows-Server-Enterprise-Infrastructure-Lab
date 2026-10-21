@@ -3,7 +3,7 @@ An industrial-grade Windows Server 2022 infrastructure lab designed and implemen
 
 ## 1. Conceptual Enterprise Architecture
 
-" In a production enterprise environment, workloads are isolated across dedicated Virtual Machines to guarantee high availability, fault tolerance, and security (Separation of Roles). " 
+' In a production enterprise environment, workloads are isolated across dedicated Virtual Machines to guarantee high availability, fault tolerance, and security (Separation of Roles). " 
 
 
 ```
@@ -22,7 +22,7 @@ An industrial-grade Windows Server 2022 infrastructure lab designed and implemen
                      [ Client Workstation (CL01) ]
 ```
                      
-Architecture Note: While this proof-of-concept consolidates core roles within a virtualized server instance to optimize hardware resources during local testing, the blueprint adheres to enterprise role separation principles.
+`Architecture Note: While this proof-of-concept consolidates core roles within a virtualized server instance to optimize hardware resources during local testing, the blueprint adheres to enterprise role separation principles.`
 
 ## 2. Network Topology & IP Addressing Scheme
 
