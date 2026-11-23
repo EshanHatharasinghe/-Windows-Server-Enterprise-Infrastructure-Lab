@@ -41,7 +41,7 @@ CL01	Domain Client Workstation	Windows 10/11 Pro	Dynamic (DHCP)	255.255.255.0	19
   - `NIC 2 (Internal Network - CorporateLab):` For isolated domain traffic.
 - **Static IP Configuration:** `192.168.10.10/24`, Subnet Mask, Gateway, and Loopback DNS (`127.0.0.1`).
 - **System Preparation:** Hostname renaming to `DC01`.
-- `- [x] [⚙️ Phase 2: Core Infrastructure (AD DS & DNS)](setup-steps/phase-02.md)`
+- - [x] [⚙️ Phase 2: Core Infrastructure (AD DS & DNS)](setup-steps/phase-02.md)
 
 ### Phase 2: Core Infrastructure (AD DS & DNS)
 - Installing Active Directory Domain Services (AD DS) and DNS Server roles.
